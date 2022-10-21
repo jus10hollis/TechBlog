@@ -1,0 +1,60 @@
+body {
+   background: url("https://drive.google.com/file/d/1z8ndOYeWPuaEglvw5K5-OkW_PO_Ul1WC/view?usp=sharing"); 
+   background-size: cover;
+}
+
+header .review:not(:last-child) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 20vh;
+    width: 100;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 20vh;
+    width: 100;
+}
+
+header h1 {
+    background-color: #2d5046; 
+    padding: .7em;
+    color: whitesmoke;
+    border-radius: 0.25rem;
+    opacity: 89%;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+}
+
+nav h3 a {
+    justify-content: space-around;
+    color: black;
+}
+
+.title {
+    color: black;
+}
+
+.post {
+    margin-top: 55px;
+    background-color: gray;
+}
+
+#email-login {
+    color: black;
+}
+
+#password-login {
+    color: black;
+}
+
+#comment.form-input {
+    width: 80%;
+    margin: 0.625rem;
+}

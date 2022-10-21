@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Express.js",
+        "description": "Express.js, a widely used Node.js framework, handles different HTTP methods in an API route."
+    },
+    {
+        "title": "Sequelize",
+        "description": "I've learned how to relate data between SQL tables using Sequelize associations and how to model one-to-one, one-to-many, and many-to-many relationships."
+    },
+    {
+        "title": "Handlebars",
+        "description": "Handlebars.js is a template engine used to render client-side aspects of the application.This is the View layer in the MVC framework."
+    },
+    {
+        "title": "Node.js",
+        "description": "Node.js is an implementation of the V8 JavaScript engine without Chrome. It allows developers to write server-side code using JavaScript!"
+    },
+    {
+        "title": "MySQL",
+        "description": "MySQL is considered the most reliable, scaleable, and developer-friendly open source relational database management system. It powers the back end of many of the popular social, streaming, and service web applications."
+    },
+    {
+        "title": "MVC",
+        "description": "The Model-View-Controller (MVC) paradigm is an architectural pattern that structures a codebase in three distinct sections, according to a software design philosophy known as the separation of concerns"
+    }
+]

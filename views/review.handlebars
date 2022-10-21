@@ -1,0 +1,27 @@
+<div class="card bg-dark text-light">
+    <div class="title text-light">
+        <h1 class="text-center">{{title}}</h1>
+    </div>
+    <p class="text-center">{{description}}</p>
+    <p>Created by {{user.name}} on {{format_date date_created}}</p>
+    <div class="card text-light">
+        {{#each comments as |comment|}}
+        <h5>{{comment.body}} from {{comment.user.name}}</h5>
+        {{/each}}
+    </div>
+    {{#if logged_in}}
+      <form class="form-group new-comment-form">
+        <label for="comment">Leave a comment</label>
+        <input class="form-input" type="text" id="comment" />
+        <div class="form-group">
+          <button class="btn btn-primary" type="submit" id="aComment" data-review="{{id}}">Leave Comment</button>
+        </div>
+      </form>
+
+      {{else}}
+      <h6><a href="/login">Login</a> to leave a comment</h6>
+      {{/if}}
+</div>
+
+<script src="/js/comment.js"></script>
+<script src="/js/profile.js"></script>
