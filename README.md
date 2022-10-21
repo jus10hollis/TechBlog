@@ -7,7 +7,7 @@ A CMS-style blog site similar to a Wordpress site, where developers can publish 
 From the command line, run `npm install` to install dependencies. Then, login to MySQL from the command line using `mysql -u root -p`. Next, setup the database by running `source db/schema.sql` in the command line. Exit by running `exit`. Next, run `npm run seed` in the command line to seed the database. Finally, run `npm start` to start the application locally.
 
 ## Usage
-Deployed to Heroku. You can find the application at []().
+Deployed to Heroku. You can find the application at [TechBlog](https://dry-castle-36273.herokuapp.com/).
 
 ## User Story
 AS A developer who writes about tech
